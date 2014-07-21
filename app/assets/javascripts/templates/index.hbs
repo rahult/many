@@ -1,0 +1,15 @@
+<ul>
+  {{#each}}
+    <li>
+      {{title}}
+      <ul>
+        {{#each comments}}
+          <li>
+            {{body}}
+          </li>
+        {{/each}}
+      </ul>
+
+    </li>
+  {{/each}}
+</ul>
